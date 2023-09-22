@@ -1,0 +1,194 @@
+.boo{
+  /* maring */
+  background-image: url('image1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shi{
+  margin-left:400px;
+  margin-top: 150px;
+  margin-bottom: 242px;
+}
+.heading{
+  width: fit-content;
+  font-size: 60px;
+  color: rgb(229, 231, 240);
+  right: 100px;
+  margin-left: 600px;
+  
+}
+.App-logo {
+  position: absolute;
+width: 600px;
+height: 618px;
+left: 0px;
+top: 0px
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.App-header {
+  background-color: #ecf0f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.S2{
+  position: absolute;
+width: 430px;
+height: 75px;
+left: 730px;
+top: 9px;
+
+font-family:Goudy Old Style;
+font-style: normal;
+font-weight: bolder;
+font-size: 25px;
+line-height: 48px;
+text-align: center;
+color: white;
+}
+
+.button {
+  font-family:Goudy Old Style;
+  font-size: 30px; 
+  width: fit-content;
+  padding: auto;
+  border: none;
+  outline: none;
+  color: #F2D1D1 ;
+  font-weight: bolder;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 25px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 200px
+}
+
+.button:before {
+  content: "";
+  background: linear-gradient(
+    30deg,
+   #eecda3,
+   #ef629f
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+  @keyframes glowing-button-85{
+    0%
+    {
+        background-position: 0 0 ;
+    }
+    50%
+    {
+        background-position: 400% 0 ;
+    }
+    100%
+    {
+        background-position: 0 0 ;
+    }
+  }
+  .button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+
+input[type="tel"]
+{
+    border: none;
+    outline: none;
+    background:#eacece;
+    padding: 6px 20px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 85px;
+    justify-items: center;
+    overflow:hidden;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.vertical-center
+{
+  border-radius: 15px;
+  padding: 5px 10px;
+  background:#ee8585;
+  color:white;
+  box-shadow: 2px 2px 8px #da9bb7;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+ 
+}
+
+.C1{
+  position: relative;
+width: 92px;
+height: 37px;
+left: 700px;
+top: 900px;
+
+font-family:papyrus;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+label{
+  display: inline-block;
+  width: 150px;
+  color: #eee6e6;
+  font-family: Goudy old style;
+  font-size: 25px;
+  margin-left: 150px;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
