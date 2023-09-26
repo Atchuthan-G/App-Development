@@ -1,0 +1,131 @@
+/* Style for the entire home page container */
+.home-container {
+    background-image: url('image4.jpg');
+    background-size: cover;
+    text-align:center;
+    padding: 2rem;
+
+  }
+  
+  /* Style for the header navigation */
+.header-nav {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+    text-align: center;
+    margin-bottom: 107px;
+    margin-top: -50px;
+    background-color: #91d5ee;/* Center-align the navigation within the header */
+  }
+  
+  .header-nav li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items (adjust as needed) */
+  }
+  
+  /* Style for the header navigation links */
+  .header-nav a {
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the text bold (adjust as needed) */
+    color: #333; /* Set the text color (adjust as needed) */
+    font-size: 18px; /* Set the text size (adjust as needed) */
+  }
+  
+  /* Style for the header section */
+  .header {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  /* Style for the footer */
+.footer {
+    text-align: center; /* Center-align the footer content */
+  }
+  
+  /* Style for the footer navigation */
+  .footer-nav {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items (adjust as needed) */
+  }
+  
+  .footer-nav li:last-child {
+    margin-right: 0; /* Remove right margin from the last list item */
+  }
+  
+  /* Style for the footer navigation links */
+  .footer-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set the text color (adjust as needed) */
+    font-size: 14px; /* Set the text size (adjust as needed) */
+  }
+  
+  
+  /* Style for the features section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+  }
+  
+  .feature {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .feature i {
+    font-size: 3rem;
+    color: #3498db;
+  }
+  
+  .feature h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .feature p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  /* Style for the call-to-action section */
+  .call-to-action {
+    margin: 4rem 0;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+  }
+  
+  .call-to-action p {
+    font-size: 1.2rem;
+    color: #6d6a6a;
+  }
+  
+  .sign-button {
+    background-color: #3498db;
+    color: white;
+    margin: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .atchu
+  {
+    text-align: right;
+    display: inline;
+    list-style: none;
+  }

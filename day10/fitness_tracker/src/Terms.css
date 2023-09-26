@@ -1,0 +1,25 @@
+/* TermsAndConditions.css */
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .terms-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Customize your CSS styles as needed for your terms and conditions content */
+  

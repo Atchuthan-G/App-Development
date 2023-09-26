@@ -1,0 +1,154 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+h6{
+    color: #F2D1D1;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:goudy old style;
+
+}
+.card{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+.card .card1{
+    width: 400px;
+    height: 350px;
+    left: 1px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    transition: 0.6s;
+    position:relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.card .card1:hover{
+    transform:translateY(-10px) ;
+}
+.card .card1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#d000ffdf,#eecda3);
+    border-radius: 20px;
+}
+.card .card1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#d000ffdf,#eecda3);
+    filter: blur(8px);
+    border-radius: 20px;
+}
+.card .card1 span{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background:  #F2D1D1;
+    z-index: 2;
+    border-radius: 20px;
+}
+.card .card1 span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background:  #F2D1D1;
+    pointer-events: none;
+    border-radius: 20px;
+}
+.card .card1 .card2{
+    position: relative;
+    z-index: 4;
+    padding: 40px 0;
+
+}
+.card .card1 .card2 h2
+{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(13, 15, 15);
+}
+.button
+{
+    border: none;
+    outline: none;
+    background:#000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 29%;
+    color:white;
+}
+.buttonlogin
+{
+    border: none;
+    outline: none;
+    background:#000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 29%;
+    color:white;
+}
+@media only screen and (max-width : 540px)
+{
+    h6{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width : 400px)
+{
+    .card .card1
+    {
+        width:90vw;
+    }
+}
+.logoimage{
+    width:100px ;
+    height:100px ;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
